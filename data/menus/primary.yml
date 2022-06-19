@@ -1,10 +1,10 @@
 ---
 - title: À propos
-  target: "/a-propos/"
+  target: "/fr/a-propos/"
   kind: page
   children: []
 - title: Membres
-  target: "/membres/"
+  target: "/fr/membres/"
   kind: persons
   children: []
 
