@@ -1,18 +1,18 @@
 ---
-- title: À propos
-  target: "/fr/a-propos/"
-  kind: page
+- title: Actualités
+  target: "/fr/actualites/"
+  kind: posts
   children: []
 - title: Membres
   target: "/fr/membres/"
   kind: persons
   children: []
+- title: À propos
+  target: "/fr/a-propos/"
+  kind: page
+  children: []
 - title: Presse
   target: "/fr/espace-presse/"
   kind: page
-  children: []
-- title: Actualités
-  target: "/fr/actualites/"
-  kind: posts
   children: []
 
