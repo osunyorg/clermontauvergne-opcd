@@ -7,4 +7,8 @@
   target: "/fr/membres/"
   kind: persons
   children: []
+- title: Presse
+  target: "/fr/espace-presse/"
+  kind: page
+  children: []
 
