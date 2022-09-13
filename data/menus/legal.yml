@@ -15,4 +15,8 @@
   target: "/fr/accessibilite/"
   kind: page
   children: []
+- title: Espace presse
+  target: "/fr/espace-presse/"
+  kind: page
+  children: []
 
