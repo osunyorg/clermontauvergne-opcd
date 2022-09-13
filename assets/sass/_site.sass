@@ -14,6 +14,7 @@ header[role="banner"]
     .menu
         a
             padding-top: 0
+            font-size: $small-font-size
 
 .hero
     background-color: white
@@ -41,7 +42,7 @@ h2
 .toc,
 .table-infos
     *
-        font-size: px2rem($small-font-size)
+        font-size: $small-font-size
 
 .person
     .name
@@ -52,8 +53,17 @@ h2
 footer[role="contentinfo"]
     margin-top: $spacing5
     font-family: $sans
+    [role="navigation"]
+        display: none
     .complementary
         display: block
+        text-align: right
+    .credit
+        margin-top: 12px
+        display: block
+        &::before
+            content: "" !important
     .nav-legal
-        li:not(:first-child)
-            margin-left: 0
+        a
+            padding-right: 0
+            font-size: $small-font-size
