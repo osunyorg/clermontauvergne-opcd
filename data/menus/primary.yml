@@ -11,8 +11,4 @@
   target: "/fr/a-propos/"
   kind: page
   children: []
-- title: Presse
-  target: "/fr/espace-presse/"
-  kind: page
-  children: []
 
