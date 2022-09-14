@@ -3,14 +3,14 @@
   target: "/fr/actualites/"
   kind: posts
   children: []
-- title: Qui sommes-nous ?
-  target: "/fr/lobservatoire/qui-sommes-nous/"
-  kind: page
-  children: []
 - title: L'observatoire
   target: "/fr/lobservatoire/"
   kind: page
   children:
+  - title: Qui sommes-nous ?
+    target: "/fr/lobservatoire/qui-sommes-nous/"
+    kind: page
+    children: []
   - title: Manifeste
     target: "/fr/lobservatoire/manifeste/"
     kind: page
