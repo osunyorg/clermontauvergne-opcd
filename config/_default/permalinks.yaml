@@ -1,2 +1,3 @@
 posts:          /actualites/:year/:month/:day/:slug/
-persons:        /membres/:slug/
+categories:     /actualites/:slug/
+persons:        /qui-sommes-nous/membres/:slug/
