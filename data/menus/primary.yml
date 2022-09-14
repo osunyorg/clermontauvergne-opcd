@@ -3,7 +3,7 @@
   target: "/fr/actualites/"
   kind: posts
   children: []
-- title: À propos
+- title: Qui sommes-nous ?
   target: "/fr/qui-sommes-nous/"
   kind: page
   children: []
