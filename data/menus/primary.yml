@@ -15,4 +15,8 @@
     target: "/fr/lobservatoire/membres/"
     kind: page
     children: []
+- title: L'observatoire
+  target: "/fr/lobservatoire/"
+  kind: page
+  children: []
 
