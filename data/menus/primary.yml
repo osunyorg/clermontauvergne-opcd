@@ -3,14 +3,6 @@
   target: "/fr/actualites/"
   kind: posts
   children: []
-- title: Qui sommes-nous ?
-  target: "/fr/qui-sommes-nous/"
-  kind: page
-  children:
-  - title: Membres
-    target: "/fr/qui-sommes-nous/membres/"
-    kind: persons
-    children: []
 - title: À propos
   target: "/fr/a-propos/"
   kind: page
