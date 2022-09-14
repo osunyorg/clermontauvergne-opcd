@@ -33,11 +33,22 @@ header[role="banner"]
         picture
             display: none
 
+.blocks
+    .title
+        &, a
+            font-family: $sans
+    
 .breadcrumb,
 .toc,
 .table-infos,
-h2
+h2,
+time
     font-family: $sans
+
+.lead
+    font-family: $body-font-family
+    line-height: 140%
+
 .breadcrumb,
 .toc,
 .table-infos
@@ -46,6 +57,7 @@ h2
 
 .person
     .name
+        font-family: $sans
         font-size: $h2-size
     p
         font-size: px2rem($small-font-size)
