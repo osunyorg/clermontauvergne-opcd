@@ -4,7 +4,7 @@
   kind: posts
   children: []
 - title: À propos
-  target: "/fr/a-propos/"
+  target: "/fr/qui-sommes-nous/"
   kind: page
   children: []
 
