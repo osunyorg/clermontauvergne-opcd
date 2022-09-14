@@ -6,5 +6,9 @@
 - title: Qui sommes-nous ?
   target: "/fr/qui-sommes-nous/"
   kind: page
-  children: []
+  children:
+  - title: Manifeste
+    target: "/fr/qui-sommes-nous/manifeste/"
+    kind: page
+    children: []
 
