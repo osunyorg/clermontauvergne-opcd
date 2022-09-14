@@ -8,7 +8,7 @@
   kind: page
   children:
   - title: Manifeste
-    target: "/fr/qui-sommes-nous/manifeste/"
+    target: "/fr/lobservatoire/manifeste/"
     kind: page
     children: []
   - title: Membres
