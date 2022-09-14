@@ -4,7 +4,7 @@
   kind: posts
   children: []
 - title: Membres
-  target: "/fr/membres/"
+  target: "/fr/qui-sommes-nous/membres/"
   kind: persons
   children: []
 - title: À propos
