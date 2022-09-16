@@ -19,4 +19,8 @@
     target: "/fr/lobservatoire/membres/"
     kind: page
     children: []
+- title: Veille scientifique
+  target: "/fr/veille-scientifique/"
+  kind: page
+  children: []
 
