@@ -22,5 +22,9 @@
 - title: Veille scientifique
   target: "/fr/veille-scientifique/"
   kind: page
-  children: []
+  children:
+  - title: Livres
+    target: "/fr/veille-scientifique/livres/"
+    kind: page
+    children: []
 
