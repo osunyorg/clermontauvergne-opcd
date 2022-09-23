@@ -12,7 +12,7 @@
     kind: page
     children: []
   - title: Manifeste
-    target: "/fr/lobservatoire/manifeste/"
+    target: "/fr/lobservatoire/charte/"
     kind: page
     children: []
   - title: Membres
