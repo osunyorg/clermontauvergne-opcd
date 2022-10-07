@@ -11,7 +11,7 @@
     target: "/fr/lobservatoire/qui-sommes-nous/"
     kind: page
     children: []
-  - title: Manifeste
+  - title: Charte
     target: "/fr/lobservatoire/charte/"
     kind: page
     children: []
