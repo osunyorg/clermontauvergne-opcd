@@ -44,4 +44,3 @@ jobs:
           local_path: ${{ secrets.FTP_LOCAL_DIR }}
           remote_path: ${{ secrets.FTP_SERVER_DIR }}
           sftp_only: true
-          sftpArgs: --insecure
