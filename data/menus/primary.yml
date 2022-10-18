@@ -27,4 +27,8 @@
     target: "/fr/veille-scientifique/livres/"
     kind: page
     children: []
+  - title: Articles
+    target: "/fr/veille-scientifique/articles/"
+    kind: page
+    children: []
 
