@@ -31,4 +31,8 @@
     target: "/fr/veille-scientifique/articles/"
     kind: page
     children: []
+  - title: Thèses et mémoires
+    target: "/fr/veille-scientifique/theses-et-memoires/"
+    kind: page
+    children: []
 
