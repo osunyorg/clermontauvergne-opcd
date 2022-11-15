@@ -27,6 +27,10 @@ header[role="banner"]
 .posts__section
     .hero
         margin-bottom: $spacing1
+    .posts
+        .post
+            p
+                font-size: $small-font-size
 
 .posts__page
     .hero
@@ -40,6 +44,9 @@ header[role="banner"]
     .block-pages--list
         .pages
             margin-top: $spacing2
+    & > *:last-child
+        padding-bottom: 0
+
 .breadcrumb,
 .toc,
 .table-infos,
@@ -62,7 +69,7 @@ time
         font-family: $sans
         font-size: $h2-size
     p
-        font-size: px2rem($small-font-size)
+        font-size: $small-font-size
 
 footer[role="contentinfo"]
     .logo 
