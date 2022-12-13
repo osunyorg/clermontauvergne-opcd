@@ -1,27 +1,4 @@
-@font-face
-    font-display: swap
-    font-family: 'Novela'
-    font-style: normal
-    font-weight: 400
-    src: url('/assets/fonts/novela/Novela-Regular.woff2') format("woff2"), url('/assets/fonts/novela/Novela-Regular.woff') format("woff")
-
-@font-face
-    font-display: swap
-    font-family: 'Novela'
-    font-style: normal
-    font-weight: 700
-    src: url('/assets/fonts/novela/Novela-Bold.woff2') format("woff2"), url('/assets/fonts/novela/Novela-Bold.woff') format("woff")
-
-@font-face
-    font-display: swap
-    font-family: 'Novela'
-    font-style: italic
-    font-weight: 400
-    src: url('/assets/fonts/novela/Novela-RegularItalic.woff2') format("woff2"), url('/assets/fonts/novela/Novela-RegularItalic.woff') format("woff")
-
-@font-face
-    font-display: swap
-    font-family: 'NovelaDisplay'
-    font-style: italic
-    font-weight: 400
-    src: url('/assets/fonts/novela/Novela-DisplayRegular.woff2') format("woff2"), url('/assets/fonts/novela/Novela-DisplayRegular.woff') format("woff")
+@include font-face("Novela", "novela/Novela-Regular", $exts: woff2 woff)
+@include font-face("Novela", "novela/Novela-Bold", $weight: 700, $exts: woff2 woff)
+@include font-face("Novela", "novela/Novela-RegularItalic", $style: "italic", $exts: woff2 woff)
+@include font-face("NovelaDisplay", "novela/Novela-DisplayRegular", $exts: woff2 woff)
