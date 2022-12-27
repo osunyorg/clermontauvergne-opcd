@@ -1,38 +1,38 @@
 ---
 - title: Actualités
-  target: "/fr/actualites/"
+  target: "/actualites/"
   kind: posts
   children: []
 - title: L'observatoire
-  target: "/fr/lobservatoire/"
+  target: "/lobservatoire/"
   kind: page
   children:
   - title: Qui sommes-nous ?
-    target: "/fr/lobservatoire/qui-sommes-nous/"
+    target: "/lobservatoire/qui-sommes-nous/"
     kind: page
     children: []
   - title: Charte
-    target: "/fr/lobservatoire/charte/"
+    target: "/lobservatoire/charte/"
     kind: page
     children: []
   - title: Membres
-    target: "/fr/lobservatoire/membres/"
+    target: "/lobservatoire/membres/"
     kind: page
     children: []
 - title: Veille scientifique
-  target: "/fr/veille-scientifique/"
+  target: "/veille-scientifique/"
   kind: page
   children:
   - title: Livres
-    target: "/fr/veille-scientifique/livres/"
+    target: "/veille-scientifique/livres/"
     kind: page
     children: []
   - title: Articles
-    target: "/fr/veille-scientifique/articles/"
+    target: "/veille-scientifique/articles/"
     kind: page
     children: []
   - title: Thèses et mémoires
-    target: "/fr/veille-scientifique/theses-et-memoires/"
+    target: "/veille-scientifique/theses-et-memoires/"
     kind: page
     children: []
 
