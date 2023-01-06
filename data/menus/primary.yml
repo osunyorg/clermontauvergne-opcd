@@ -1,7 +1,7 @@
 ---
 - title: Actualités
   target: "/actualites/"
-  kind: posts
+  kind: page
   children: []
 - title: L'observatoire
   target: "/lobservatoire/"
