@@ -1,6 +1,4 @@
 theme: osuny-hugo-theme-AAA
-
-params:
-  posts:
-    list:
-      show_categories: false
+paginate: 18
+enableRobotsTXT: true
+removePathAccents: true
