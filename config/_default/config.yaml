@@ -6,3 +6,6 @@ params:
   pages:
     index:
       truncate_description: 0
+  persons:
+    index:
+      layout: grid
