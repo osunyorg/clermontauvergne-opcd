@@ -10,7 +10,7 @@ full_width: true
 design:
   full_width: true
   toc:
-    present: true
+    present: false
     offcanvas: true
 
 position: 1
@@ -38,8 +38,41 @@ description_short: >
 
 header_text: >-
   
-legacy_text: >
-  
+contents:
+  - kind: block
+    template: pages
+    title: >
+      L'observatoire
+    position: 1
+    data:
+      page: /lobservatoire/
+      show_main_description: true
+      show_descriptions: false
+      show_images: false
+      layout: list
+      pages:
+        - page: /lobservatoire/qui-sommes-nous/
+          slug: /lobservatoire/qui-sommes-nous/
+        - page: /lobservatoire/charte/
+          slug: /lobservatoire/charte/
+        - page: /lobservatoire/membres/
+          slug: /lobservatoire/membres/
+
+
+  - kind: block
+    template: posts
+    title: >
+      Actualités
+    position: 2
+    data:
+      all: true
+      layout: grid
+      posts:
+        - "2023/2023-04-04-agora-de-la-decroissance-prospere"
+        - "2023/2023-03-07-conference-pour-construire-de-nouveaux-indicateurs-de-richesse"
+        - "2023/2023-01-17-relocalisation-et-decroissance-fake-or-not-rencontre-debat"
+
+
 blocks:
   - template: pages
     title: >-
