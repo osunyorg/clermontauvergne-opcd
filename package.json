@@ -4,7 +4,7 @@
   "repository": "git@github.com:noesya/clermontauvergne-opcd.git",
   "license": "MIT",
   "dependencies": {
-    "osuny-hugo-theme": "./themes/osuny-hugo-theme-AAA"
+    "osuny-hugo-theme": "./themes/osuny-hugo-theme-aaa"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",

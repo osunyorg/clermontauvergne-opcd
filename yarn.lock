@@ -523,7 +523,7 @@ nth-check@^2.0.1:
   dependencies:
     boolbase "^1.0.0"
 
-osuny-hugo-theme@./themes/osuny-hugo-theme-AAA:
+osuny-hugo-theme@./themes/osuny-hugo-theme-aaa:
   version "1.0.4"
   dependencies:
     "@splidejs/splide" "^3.6.12"
