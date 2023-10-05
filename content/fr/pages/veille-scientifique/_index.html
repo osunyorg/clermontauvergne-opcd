@@ -1,7 +1,10 @@
 ---
-title: >
-  Veille scientifique
+title: "Veille scientifique"
 breadcrumb_title: "Veille scientifique"
+breadcrumbs:
+  - title: "Accueil"
+    path: "/"
+  - title: "Veille scientifique"
 url: "/veille-scientifique/"
 slug: "veille-scientifique"
 aliases:
@@ -21,9 +24,9 @@ translation_key: communication-website-page-7bef7d46-7604-48a9-bba4-450fa707aa58
 bodyclass: 
 
 children:
-  - /veille-scientifique/livres/
-  - /veille-scientifique/articles/
-  - /veille-scientifique/theses-et-memoires/
+  - "content/fr/pages/veille-scientifique/livres/_index.html"
+  - "content/fr/pages/veille-scientifique/articles/_index.html"
+  - "content/fr/pages/veille-scientifique/theses-et-memoires/_index.html"
 meta_description: >
   
 description: >
@@ -52,40 +55,18 @@ contents:
       show_images: false
       layout: grid
       pages:
-        - page: "/veille-scientifique/livres/"
-          slug: "/veille-scientifique/livres/"
-        - page: "/veille-scientifique/articles/"
-          slug: "/veille-scientifique/articles/"
-        - page: "/veille-scientifique/theses-et-memoires/"
-          slug: "/veille-scientifique/theses-et-memoires/"
-      elements:
-        - title: >-
-            Livres
-          summary: >-
-            Tous les ouvrages portant sur la décroissance et la postcroissance
+        - path: "/veille-scientifique/livres/"
           slug: "livres"
-          path: "/veille-scientifique/livres/"
-          url: "/veille-scientifique/livres/"
-          bodyclass: >-
-            
-        - title: >-
-            Articles
-          summary: >-
-            Principaux articles portant sur la décroissance et la post-croissance
+          file: "content/fr/pages/veille-scientifique/livres/_index.html"
+          external: false
+        - path: "/veille-scientifique/articles/"
           slug: "articles"
-          path: "/veille-scientifique/articles/"
-          url: "/veille-scientifique/articles/"
-          bodyclass: >-
-            
-        - title: >-
-            Thèses et mémoires
-          summary: >-
-            Liste et accès aux thèses et mémoires de master portant sur la décroissance et la post-croissance
+          file: "content/fr/pages/veille-scientifique/articles/_index.html"
+          external: false
+        - path: "/veille-scientifique/theses-et-memoires/"
           slug: "theses-et-memoires"
-          path: "/veille-scientifique/theses-et-memoires/"
-          url: "/veille-scientifique/theses-et-memoires/"
-          bodyclass: >-
-            
+          file: "content/fr/pages/veille-scientifique/theses-et-memoires/_index.html"
+          external: false
 
 
 
