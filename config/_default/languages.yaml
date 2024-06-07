@@ -12,7 +12,7 @@ fr:
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
     persons: /lobservatoire/membres/:slug/
-    persons_categories: /lobservatoire/membres/:slug/
+    persons_categories: /lobservatoire/membres/categories/:slug/
     authors: /lobservatoire/membres/:slug/actualites/
   taxonomies:
     administrator: administrators
