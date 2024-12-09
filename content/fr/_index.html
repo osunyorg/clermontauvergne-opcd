@@ -4,6 +4,7 @@ breadcrumb_title: >-
 title: >-
   Observatoire de la Post‑Croissance et de la Décroissance
 url: "/"
+slug: ""
 aliases:
   - /fr/
 date: 2023-06-26T18:33:45+02:00
@@ -11,8 +12,8 @@ lastmod: 2024-09-29T11:36:15+02:00
 meta:
   hugo:
     permalink: "/"
+    path: "/"
     file: "content/fr/_index.html"
-    path: ""
     slug: ""
   dates:
     created_at: 2022-06-07T11:41:10+02:00
@@ -75,9 +76,10 @@ contents:
       children: 3
     data:
       page:
-        path: "/lobservatoire/"
+        permalink: "/lobservatoire/"
+        path: "/pages/lobservatoire"
         slug: "lobservatoire"
-        file: "pages/lobservatoire/_index.html"
+        file: "content/fr/pages/lobservatoire/_index.html"
       options:
         image: false
         main_summary: true
@@ -85,18 +87,19 @@ contents:
 
       layout: list
       pages:
-        - path: "/lobservatoire/qui-sommes-nous/"
+        - permalink: "/lobservatoire/qui-sommes-nous/"
+          path: "/pages/lobservatoire/qui-sommes-nous"
           slug: "qui-sommes-nous"
-          file: "pages/lobservatoire/qui-sommes-nous/_index.html"
-          external: false
-        - path: "/lobservatoire/charte/"
+          file: "content/fr/pages/lobservatoire/qui-sommes-nous/_index.html"
+        - permalink: "/lobservatoire/charte/"
+          path: "/pages/lobservatoire/charte"
           slug: "charte"
-          file: "pages/lobservatoire/charte/_index.html"
-          external: false
-        - path: "/lobservatoire/membres/"
+          file: "content/fr/pages/lobservatoire/charte/_index.html"
+        - permalink: "/lobservatoire/membres/"
+          path: "/persons"
           slug: "membres"
-          file: "persons/_index.html"
-          external: false
+          file: "content/fr/persons/_index.html"
+
 
 
   - kind: block
@@ -122,9 +125,19 @@ contents:
         summary: true
 
       posts:
-        - "2024/2024-09-19-la-decroissance-contre-lausterite-seminaire-a-lassemblee-nationale-le-27-septembre-3"
-        - "2023/2023-04-04-agora-de-la-decroissance-prospere"
-        - "2023/2023-03-07-conference-pour-construire-de-nouveaux-indicateurs-de-richesse"
+        - permalink: "/actualites/2024-09-19-la-decroissance-contre-lausterite-seminaire-a-lassemblee-nationale-le-27-septembre-3/"
+          path: "/posts/2024/2024-09-19-la-decroissance-contre-lausterite-seminaire-a-lassemblee-nationale-le-27-septembre-3"
+          slug: "la-decroissance-contre-lausterite-seminaire-a-lassemblee-nationale-le-27-septembre-3"
+          file: "content/fr/posts/2024/2024-09-19-la-decroissance-contre-lausterite-seminaire-a-lassemblee-nationale-le-27-septembre-3.html"
+        - permalink: "/actualites/2023-04-04-agora-de-la-decroissance-prospere/"
+          path: "/posts/2023/2023-04-04-agora-de-la-decroissance-prospere"
+          slug: "agora-de-la-decroissance-prospere"
+          file: "content/fr/posts/2023/2023-04-04-agora-de-la-decroissance-prospere.html"
+        - permalink: "/actualites/2023-03-07-conference-pour-construire-de-nouveaux-indicateurs-de-richesse/"
+          path: "/posts/2023/2023-03-07-conference-pour-construire-de-nouveaux-indicateurs-de-richesse"
+          slug: "conference-pour-construire-de-nouveaux-indicateurs-de-richesse"
+          file: "content/fr/posts/2023/2023-03-07-conference-pour-construire-de-nouveaux-indicateurs-de-richesse.html"
+
 
 
 
