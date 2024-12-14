@@ -5,6 +5,7 @@ items:
   target: "/actualites/"
   kind: page
   children: []
+  path: "/posts"
   file: content/fr/posts/_index.html
 - title: L'observatoire
   target: "/lobservatoire/"
@@ -14,17 +15,21 @@ items:
     target: "/lobservatoire/qui-sommes-nous/"
     kind: page
     children: []
+    path: "/pages/lobservatoire/qui-sommes-nous"
     file: content/fr/pages/lobservatoire/qui-sommes-nous/_index.html
   - title: Charte
     target: "/lobservatoire/charte/"
     kind: page
     children: []
+    path: "/pages/lobservatoire/charte"
     file: content/fr/pages/lobservatoire/charte/_index.html
   - title: Membres
     target: "/lobservatoire/membres/"
     kind: page
     children: []
+    path: "/persons"
     file: content/fr/persons/_index.html
+  path: "/pages/lobservatoire"
   file: content/fr/pages/lobservatoire/_index.html
 - title: Veille scientifique
   target: "/veille-scientifique/"
@@ -34,16 +39,20 @@ items:
     target: "/veille-scientifique/livres/"
     kind: page
     children: []
+    path: "/pages/veille-scientifique/livres"
     file: content/fr/pages/veille-scientifique/livres/_index.html
   - title: Articles
     target: "/veille-scientifique/articles/"
     kind: page
     children: []
+    path: "/pages/veille-scientifique/articles"
     file: content/fr/pages/veille-scientifique/articles/_index.html
   - title: Thèses et mémoires
     target: "/veille-scientifique/theses-et-memoires/"
     kind: page
     children: []
+    path: "/pages/veille-scientifique/theses-et-memoires"
     file: content/fr/pages/veille-scientifique/theses-et-memoires/_index.html
+  path: "/pages/veille-scientifique"
   file: content/fr/pages/veille-scientifique/_index.html
 
