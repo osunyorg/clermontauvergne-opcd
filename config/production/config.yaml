@@ -2,6 +2,11 @@
 
 baseURL: https://www.opcd.co
 
+## OSUNY
+osuny:
+  website:
+    id: aac08387-8b8b-4dcc-8c30-e543bea5e2bd
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
