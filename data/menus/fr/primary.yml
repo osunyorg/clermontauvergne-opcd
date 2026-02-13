@@ -2,66 +2,90 @@
 title: Primary
 items:
 - title: Actualités
+  slug: actualites
   target: "/actualites/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: L'observatoire
+  slug: l-observatoire
   target: "/lobservatoire/"
   kind: page
   new_tab: false
   children:
   - title: Qui sommes-nous ?
+    slug: qui-sommes-nous
     target: "/lobservatoire/qui-sommes-nous/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/lobservatoire/qui-sommes-nous"
     file: content/fr/pages/lobservatoire/qui-sommes-nous/_index.html
   - title: Charte
+    slug: charte
     target: "/lobservatoire/charte/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/lobservatoire/charte"
     file: content/fr/pages/lobservatoire/charte/_index.html
   - title: Membres
+    slug: membres
     target: "/lobservatoire/membres/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/persons"
     file: content/fr/persons/_index.html
+  descendants_targets:
+  - "/lobservatoire/charte/"
+  - "/lobservatoire/membres/"
+  - "/lobservatoire/qui-sommes-nous/"
   path: "/pages/lobservatoire"
   file: content/fr/pages/lobservatoire/_index.html
 - title: Veille scientifique
+  slug: veille-scientifique
   target: "/veille-scientifique/"
   kind: page
   new_tab: false
   children:
   - title: Livres
+    slug: livres
     target: "/veille-scientifique/livres/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/veille-scientifique/livres"
     file: content/fr/pages/veille-scientifique/livres/_index.html
   - title: Articles
+    slug: articles
     target: "/veille-scientifique/articles/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/veille-scientifique/articles"
     file: content/fr/pages/veille-scientifique/articles/_index.html
   - title: Thèses et mémoires
+    slug: theses-et-memoires
     target: "/veille-scientifique/theses-et-memoires/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/veille-scientifique/theses-et-memoires"
     file: content/fr/pages/veille-scientifique/theses-et-memoires/_index.html
+  descendants_targets:
+  - "/veille-scientifique/articles/"
+  - "/veille-scientifique/livres/"
+  - "/veille-scientifique/theses-et-memoires/"
   path: "/pages/veille-scientifique"
   file: content/fr/pages/veille-scientifique/_index.html
 
