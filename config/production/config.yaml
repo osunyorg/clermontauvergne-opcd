@@ -7,6 +7,11 @@ osuny:
   website:
     id: aac08387-8b8b-4dcc-8c30-e543bea5e2bd
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "opcd.co"
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
